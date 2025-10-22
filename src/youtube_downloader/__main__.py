@@ -1,0 +1,9 @@
+"""Module entrypoint for ``python -m youtube_downloader``."""
+
+from __future__ import annotations
+
+from .cli import main
+
+
+if __name__ == "__main__":  # pragma: no cover - CLI entrypoint
+    raise SystemExit(main())
